@@ -10,6 +10,7 @@
         "cached_network_image",
         "cupertino_icons",
         "dio",
+        "equatable",
         "flutter",
         "flutter_dotenv",
         "flutter_html",
@@ -59,6 +60,14 @@
         "stream_channel",
         "test_api",
         "vector_math"
+      ]
+    },
+    {
+      "name": "equatable",
+      "version": "2.0.7",
+      "dependencies": [
+        "collection",
+        "meta"
       ]
     },
     {
