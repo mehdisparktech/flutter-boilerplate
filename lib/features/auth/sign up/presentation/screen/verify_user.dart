@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import '../../../../../component/button/common_button.dart';
-import '../../../../../component/text/common_text.dart';
+import '../../../../../core/component/button/common_button.dart';
+import '../../../../../core/component/text/common_text.dart';
 import '../controller/sign_up_controller.dart';
-import '../../../../../../../utils/constants/app_colors.dart';
+import '../../../../../core/utils/constants/app_colors.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import '../../../../../../../utils/constants/app_string.dart';
+import '../../../../../core/utils/constants/app_string.dart';
 
 class VerifyUser extends StatefulWidget {
   const VerifyUser({super.key});
@@ -56,7 +56,6 @@ class _VerifyUserState extends State<VerifyUser> {
                       maxLines: 3,
                     ),
                   ),
-
 
                   /// OTP Filed here
                   Flexible(

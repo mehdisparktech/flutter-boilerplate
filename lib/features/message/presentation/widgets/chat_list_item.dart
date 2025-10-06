@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../../../component/image/common_image.dart';
-import '../../../../component/text/common_text.dart';
+import '../../../../core/component/image/common_image.dart';
+import '../../../../core/component/text/common_text.dart';
 import '../../data/model/chat_list_model.dart';
-import '../../../../../utils/extensions/extension.dart';
-import '../../../../../utils/constants/app_colors.dart';
-
+import '../../../../core/utils/extensions/extension.dart';
+import '../../../../core/utils/constants/app_colors.dart';
 
 Widget chatListItem({required ChatModel item}) {
   return Container(

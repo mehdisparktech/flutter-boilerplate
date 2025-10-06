@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import '../../../../../../utils/helpers/other_helper.dart';
-import '../../../../../../utils/constants/app_string.dart';
-import '../../../../../component/text/common_text.dart';
-import '../../../../../component/text_field/common_text_field.dart';
+import '../../../../../core/utils/helpers/other_helper.dart';
+import '../../../../../core/utils/constants/app_string.dart';
+import '../../../../../core/component/text/common_text.dart';
+import '../../../../../core/component/text_field/common_text_field.dart';
 import '../controller/sign_up_controller.dart';
-import '../../../../../../utils/constants/app_colors.dart';
-
+import '../../../../../core/utils/constants/app_colors.dart';
 
 class SignUpAllField extends StatelessWidget {
   const SignUpAllField({super.key, required this.controller});

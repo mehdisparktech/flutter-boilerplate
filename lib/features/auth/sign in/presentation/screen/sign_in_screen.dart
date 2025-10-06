@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import '../../../../../../../config/route/app_routes.dart';
-import '../../../../../../../utils/extensions/extension.dart';
+import '../../../../../core/config/route/app_routes.dart';
+import '../../../../../core/utils/extensions/extension.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import '../../../../../component/button/common_button.dart';
-import '../../../../../component/text/common_text.dart';
-import '../../../../../component/text_field/common_text_field.dart';
+import '../../../../../core/component/button/common_button.dart';
+import '../../../../../core/component/text/common_text.dart';
+import '../../../../../core/component/text_field/common_text_field.dart';
 import '../controller/sign_in_controller.dart';
 
-import '../../../../../../../utils/constants/app_colors.dart';
-import '../../../../../../../utils/constants/app_string.dart';
-import '../../../../../../../utils/helpers/other_helper.dart';
+import '../../../../../core/utils/constants/app_colors.dart';
+import '../../../../../core/utils/constants/app_string.dart';
+import '../../../../../core/utils/helpers/other_helper.dart';
 import '../widgets/do_not_account.dart';
 
 class SignInScreen extends StatelessWidget {

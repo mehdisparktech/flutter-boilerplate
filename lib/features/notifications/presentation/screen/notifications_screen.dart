@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import '../../../../component/bottom_nav_bar/common_bottom_bar.dart';
-import '../../../../component/other_widgets/common_loader.dart';
-import '../../../../component/other_widgets/no_data.dart';
-import '../../../../component/text/common_text.dart';
+import '../../../../core/component/bottom_nav_bar/common_bottom_bar.dart';
+import '../../../../core/component/other_widgets/common_loader.dart';
+import '../../../../core/component/other_widgets/no_data.dart';
+import '../../../../core/component/text/common_text.dart';
 import '../controller/notifications_controller.dart';
-import '../../../../../../config/api/api_end_point.dart';
+import '../../../../core/config/api/api_end_point.dart';
 import '../../data/model/notification_model.dart';
 import '../widgets/notification_item.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import '../../../../config/route/app_routes.dart';
-import '../../../../services/api/api_service.dart';
-import '../../../../config/api/api_end_point.dart';
-import '../../../../utils/app_utils.dart';
+import '../../../../core/config/route/app_routes.dart';
+import '../../../../core/services/api/api_service.dart';
+import '../../../../core/config/api/api_end_point.dart';
+import '../../../../core/utils/app_utils.dart';
 
 class SettingController extends GetxController {
   /// Password controller here , use for delete account

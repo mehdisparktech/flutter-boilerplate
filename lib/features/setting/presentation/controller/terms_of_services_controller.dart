@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 import '../../data/model/html_model.dart';
-import '../../../../services/api/api_service.dart';
-import '../../../../config/api/api_end_point.dart';
-import '../../../../utils/app_utils.dart';
-import '../../../../utils/enum/enum.dart';
+import '../../../../core/services/api/api_service.dart';
+import '../../../../core/config/api/api_end_point.dart';
+import '../../../../core/utils/app_utils.dart';
+import '../../../../core/utils/enum/enum.dart';
 
 class TermsOfServicesController extends GetxController {
   /// Api status check here

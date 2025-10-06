@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import '../../../../../../../utils/extensions/extension.dart';
+import '../../../../../core/utils/extensions/extension.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import '../../../../../component/button/common_button.dart';
-import '../../../../../component/text/common_text.dart';
-import '../../../../../component/text_field/common_text_field.dart';
+import '../../../../../core/component/button/common_button.dart';
+import '../../../../../core/component/text/common_text.dart';
+import '../../../../../core/component/text_field/common_text_field.dart';
 import '../controller/forget_password_controller.dart';
-import '../../../../../../../utils/constants/app_string.dart';
-import '../../../../../../../utils/helpers/other_helper.dart';
+import '../../../../../core/utils/constants/app_string.dart';
+import '../../../../../core/utils/helpers/other_helper.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
   ForgotPasswordScreen({super.key});

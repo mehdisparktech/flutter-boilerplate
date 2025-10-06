@@ -5,12 +5,12 @@ import 'package:get/get.dart';
 import '../../data/model/chat_message_model.dart';
 import '../../data/model/message_model.dart';
 
-import '../../../../services/api/api_service.dart';
-import '../../../../services/socket/socket_service.dart';
-import '../../../../config/api/api_end_point.dart';
-import '../../../../services/storage/storage_services.dart';
-import '../../../../utils/app_utils.dart';
-import '../../../../utils/enum/enum.dart';
+import '../../../../core/services/api/api_service.dart';
+import '../../../../core/services/socket/socket_service.dart';
+import '../../../../core/config/api/api_end_point.dart';
+import '../../../../core/services/storage/storage_services.dart';
+import '../../../../core/utils/app_utils.dart';
+import '../../../../core/utils/enum/enum.dart';
 
 class MessageController extends GetxController {
   bool isLoading = false;

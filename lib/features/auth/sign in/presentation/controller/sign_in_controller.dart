@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
-import '../../../../../config/route/app_routes.dart';
-import '../../../../../services/api/api_service.dart';
-import '../../../../../config/api/api_end_point.dart';
-import '../../../../../services/storage/storage_keys.dart';
-import '../../../../../services/storage/storage_services.dart';
+import '../../../../../core/config/route/app_routes.dart';
+import '../../../../../core/services/api/api_service.dart';
+import '../../../../../core/config/api/api_end_point.dart';
+import '../../../../../core/services/storage/storage_keys.dart';
+import '../../../../../core/services/storage/storage_services.dart';
 
 class SignInController extends GetxController {
   /// Sign in Button Loading variable
